@@ -1,0 +1,40 @@
+.footer {
+    border-top: 1px solid rgba(191, 31, 39, 0.36);
+    background: #060607;
+}
+
+.footer__content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.2rem;
+    padding: 1.4rem 0;
+}
+
+.footer h3 {
+    margin-bottom: 0.38rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+}
+
+.footer_links {
+    list-style: none;
+}
+
+.footer_links li + li {
+    margin-top: 0.28rem;
+}
+
+.footer_links a {
+    color: var(--text-soft);
+    font-size: 0.9rem;
+}
+
+.copyright {
+    grid-column: 1 / -1;
+    margin-top: 0.2rem;
+    color: #b9bcc6;
+    font-size: 0.78rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding-top: 0.75rem;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shattered Riffs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/icons/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container container_header_content">
+            <div class="logo_section">
+                <img src="./assets/icons/logo.ico" alt="Shattered Riffs logo" class="logo_icon">
+                <h1 class="main_title">Shattered Riffs</h1>
+            </div>
+
+            <!-- Nav for desktop / hamburger for mobile -->
+            <nav class="nav_list" id="site-nav" aria-label="Primary">
+                <ul class="nav_items">
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#media">Media</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Hint for JS (optional extra points) -->
+            <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
+                aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero_overlay">
+                <p class="hero_kicker">Live 2026</p>
+                <h2>Rock The Night - Upcoming Tour</h2>
+                <a href="#events" class="btn">View All Events</a>
+            </div>
+        </section>
+
+        <!-- EVENTS -->
+        <section id="events" class="events container">
+            <h2>Upcoming Events</h2>
+
+            <!-- Extra points: table -->
+            <table class="events_table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>City</th>
+                        <th>Venue</th>
+                        <th>Tickets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>15 May</td>
+                        <td>Madrid</td>
+                        <td>Sala Sol</td>
+                        <td><button type="button">Buy Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>18 May</td>
+                        <td>Barcelona</td>
+                        <td>Razzmatazz</td>
+                        <td><button type="button">Buy Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>22 May</td>
+                        <td>Valencia</td>
+                        <td>Moon Club</td>
+                        <td><button type="button">Buy Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>27 May</td>
+                        <td>Bilbao</td>
+                        <td>Kafe Antzokia</td>
+                        <td><button type="button">Buy Now</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about container">
+            <h2>About the Band</h2>
+
+            <div class="about__content">
+                <img src="./assets/img/img-1.jpg" alt="The members of Shattered Riffs posing together">
+
+                <article>
+                    <p>
+                        Shattered Riffs is a high-energy rock band from Spain known for heavy riffs, sharp melodies
+                        and explosive live performances. Their sound blends classic hard rock with modern alternative
+                        textures.
+                    </p>
+
+                    <!-- Required list -->
+                    <h3>Our Values</h3>
+                    <ul>
+                        <li>Authentic sound</li>
+                        <li>High energy on stage</li>
+                        <li>Fan connection first</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- MEDIA -->
+        <section id="media" class="media container">
+            <h2>Multimedia</h2>
+
+            <div class="media__grid">
+                <img src="./assets/img/img-2.jpg" alt="Band performing under warm stage lights">
+                <img src="./assets/img/img-3.jpg" alt="Lead guitarist performing live">
+                <img src="./assets/img/img-4.jpg" alt="Drums and crowd in a live show">
+                <img src="./assets/img/img-5.jpg" alt="Band close-up on stage">
+                <img src="./assets/img/img-6.jpg" alt="Audience cheering during concert">
+                <img src="./assets/img/img-7.jpg" alt="Night concert lights and band silhouettes">
+                <img src="./assets/img/img-8.jpg" alt="Vocals performance at a live event">
+                <img src="./assets/img/img-9.jpg" alt="Final song with full stage lights">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="footer">
+        <div class="container footer__content">
+            <div>
+                <h3>Footer</h3>
+                <ul class="footer_links">
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#media">Media</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Band Info</h3>
+                <ul class="footer_links">
+                    <li><a href="#">Official Store</a></li>
+                    <li><a href="#">Press Kit</a></li>
+                    <li><a href="#">Booking</a></li>
+                </ul>
+            </div>
+            <p class="copyright">© <span id="year"></span> Shattered Riffs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

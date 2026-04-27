@@ -1,0 +1,34 @@
+.about {
+    padding: 1.2rem;
+    border: 1px solid var(--line);
+    border-radius: 0.6rem;
+    background: linear-gradient(130deg, var(--bg-panel-soft), var(--bg-panel));
+}
+
+.about__content {
+    display: grid;
+    grid-template-columns: minmax(230px, 1fr) 1.2fr;
+    gap: 1rem;
+    align-items: start;
+}
+
+.about__content img {
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.about article p {
+    color: var(--text-soft);
+    margin-bottom: 0.85rem;
+}
+
+.about h3 {
+    margin-bottom: 0.42rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 0.04em;
+}
+
+.about ul {
+    list-style-position: inside;
+    color: var(--text-soft);
+}
